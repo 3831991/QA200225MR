@@ -1,0 +1,43 @@
+body {
+    /* כיוון האתר מימין לשמאל */
+    direction: rtl;
+    /* רקע האתר */
+    background-color: #cde0b8;
+}
+
+h1 {
+    /* צבע הטקסט */
+    color: #d74e1c;
+    /* יישור טקסט */
+    text-align: center;
+}
+
+img {
+    /* רוחב */
+    width: 100%;
+}
+
+a {
+    /* רקע */
+    background-color: #be0088;
+    /* צבע טקסט */
+    color: white;
+    /* ריווח פנימי */
+    padding: 8px 16px;
+    /* שינוי מצב התצוגה של הקישור */
+    display: inline-block;
+    /* עיגול קצוות */
+    border-radius: 20px;
+    /* ריווח חיצוני */
+    margin: 12px 3px;
+    /* ביטול הקו התחתון */
+    text-decoration: none;
+}
+
+/* עיצוב הקישור בריחוף עם העכבר */
+a:hover {
+    /* רקע */
+    background-color: #ff00d4;
+    /* שינוי גודל */
+    scale: 1.5;
+}
