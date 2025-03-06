@@ -7,3 +7,9 @@ function welcomeUser() {
 
     alert("ברוך הבא " + userName);
 }
+
+function multi50() {
+    let x = document.getElementById("num").value;
+
+    alert(x * 50);
+}
