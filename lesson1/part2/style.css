@@ -15,7 +15,7 @@ h1 {
 
 .frame {
     background-color: white;
-    width: 900px;
+    max-width: 900px;
     min-height: 500px;
     margin: auto;
     padding: 16px;
