@@ -11,9 +11,35 @@
 
         <div class="frame">
             <div>
-                <p></p>
+                <p>יש לקלוט 2 מספרים ולאפשר לבחור סוג פעולה</p>
+
+                <input type="number" id="num1">
+                <input type="number" id="num2">
+    
+                <button title="חיבור" onclick="plus()">+</button>
+                <button title="חיסור" onclick="minus()">-</button>
+                <button title="כפל" onclick="multi()">x</button>
+                <button title="חילוק" onclick="division()">:</button>
+    
+                <p id="output1"></p>
             </div>
 
+            <div>
+                <p>יש לקלוט 2 מספרים ולאפשר לבחור סוג פעולה (יש להשתמש ב-Select)</p>
+
+                <input type="number" id="num3">
+                <select id="op">
+                    <option>+</option>
+                    <option>-</option>
+                    <option>*</option>
+                    <option>/</option>
+                </select>
+                <input type="number" id="num4">
+    
+                <button onclick="task2()">אישור</button>
+    
+                <p id="output2"></p>
+            </div>
         </div>
     </body>
 </html>
