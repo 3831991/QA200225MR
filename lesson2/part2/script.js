@@ -55,7 +55,17 @@ function lastTask() {
     if (n >= 40 && n <= 100) {
         out.innerHTML = "נכשל";
         out.style.color = "red";
-    } else if () {
-        
+    } else if (n >= 500 && n <= 600) {
+        out.innerHTML = "בינוני";
+        out.style.color = "orange";
+    } else if (n >= 700 && n <= 900) {
+        out.innerHTML = "טוב";
+        out.style.color = "blue";
+    } else if (n >= 980 && n <= 1000) {
+        out.innerHTML = "מצויין";
+        out.style.color = "green";
+    } else {
+        out.innerHTML = "Error";
+        out.style.color = "";
     }
 }
