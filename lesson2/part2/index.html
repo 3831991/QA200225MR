@@ -54,6 +54,26 @@
                     </ul>
                 </p>
 
+                <input type="number" id="num1">
+                <input type="number" id="num2">
+                <button onclick="check()">בדיקה</button>
+                <p id="output3"></p>
+            </div>
+
+            <div>
+                <p>
+                    יש לקלוט מספר:
+                    <ul>
+                        <li>אם הוא בין 40 ל-100 - יש לכתוב נכשל (אדום)</li>
+                        <li>אם הוא בין 500 ל-600 - יש לכתוב בינוני (כתום)</li>
+                        <li>אם הוא בין 700 ל-900 - יש לכתוב טוב (כחול)</li>
+                        <li>אם הוא בין 980 ל-1000 - יש לכתוב מצויין (ירוק)</li>
+                        <li>אחרת יש לכתוב - Error</li>
+                    </ul>
+                </p>
+
+                <input type="number" id="num3" oninput="lastTask()">
+                <p id="output4"></p>
             </div>
         </div>
     </body>
