@@ -25,3 +25,14 @@ function chnageColor() {
 
     document.body.style.backgroundColor = bg;
 }
+
+function login() {
+    let un = document.getElementById("userName").value;
+    let pw = document.getElementById("password").value;
+
+    if (un == "banana" && pw == "a123") {
+        
+    } else {
+
+    }
+}
