@@ -42,3 +42,23 @@ function task2() {
         output.innerHTML = n1 / n2;
     }
 }
+
+function replace() {
+    let num5 = document.getElementById("num5").value;
+    let num6 = document.getElementById("num6").value;
+
+    document.getElementById("num5").value = num6;
+    document.getElementById("num6").value = num5;
+}
+
+let counter = 0;
+
+function counterPlus() {
+    document.getElementById("counter").innerHTML = ++counter;
+    document.getElementById("counter").style.fontSize = (counter + 15) + 'px';
+}
+
+function counterMinus() {
+    document.getElementById("counter").innerHTML = --counter;
+    document.getElementById("counter").style.fontSize = (counter + 15) + 'px';
+}
