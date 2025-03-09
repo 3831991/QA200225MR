@@ -31,8 +31,8 @@ function login() {
     let pw = document.getElementById("password").value;
 
     if (un == "banana" && pw == "a123") {
-        
+        document.getElementById("output2").innerHTML = "ההתחברות בוצעה בהצלחה";
     } else {
-
+        document.getElementById("output2").innerHTML = "שם משתמש או סיסמה שגויים";
     }
 }
