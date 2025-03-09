@@ -7,7 +7,7 @@
         <script src="script.js"></script>
     </head>
     <body>
-        <h1>ברוכים הבאים ל-JavaScript</h1>
+        <h1 id="title">ברוכים הבאים ל-JavaScript</h1>
 
         <div class="frame">
             <div>
@@ -23,18 +23,28 @@
 
             <div>
                 <p>יש לקלוט מספר, להכפיל ב-50 ולהציג ב-alert</p>
+                <input type="number" id="num">
+                <button onclick="multi50()">לחצו כאן</button>
             </div>
 
             <div>
                 <p>לקלוט 2 מספרים ולהכפיל ביניהם</p>
+                <input type="number" id="num1">
+                <input type="number" id="num2">
+                <button onclick="multi()">לחצו כאן</button>
             </div>
 
             <div>
                 <p>לקלוט 2 מספרים ולחבר ביניהם</p>
+                <input type="number" id="num3">
+                <input type="number" id="num4">
+                <button onclick="sum()">לחצו כאן</button>
             </div>
 
             <div>
                 <p>לקלוט את שם המשתמש ולכתוב הודעה הכוללת את שמו בתוך האתר</p>
+                <input type="text" id="username">
+                <button onclick="message3()">לחצו כאן</button>
             </div>
         </div>
     </body>
