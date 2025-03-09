@@ -18,6 +18,24 @@
                 <button onclick="task1()">בדוק</button>
             </div>
 
+            <div>
+                <p>
+                    יש לקלוט מספר:
+                    <ul>
+                        <li>אם המספר גדול מ-50 - לכתוב "המספר גדול מ-50"</li>
+                        <li>אם המספר קטן מ-30 - לכתוב "המספר קטן מ-30"</li>
+                        <li>אחרת - לכתוב "לא בטווח"</li>
+                    </ul>
+                </p>
+
+                <input type="number" id="num" oninput="task2()">
+                <p id="output"></p>
+            </div>
+
+            <div>
+                <p>בחר צבע לאתר</p>
+                <input type="color" id="bgcolor" oninput="chnageColor()">
+            </div>
         </div>
     </body>
 </html>

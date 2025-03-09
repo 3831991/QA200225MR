@@ -7,3 +7,21 @@ function task1() {
         alert("לא נכון");
     }
 }
+
+function task2() {
+    let n = +document.getElementById("num").value;
+
+    if (n > 50) {
+        document.getElementById("output").innerHTML = "המספר גדול מ-50";
+    } else if (n < 30) {
+        document.getElementById("output").innerHTML = "המספר קטן מ-30";
+    } else {
+        document.getElementById("output").innerHTML = "לא בטווח";
+    }
+}
+
+function chnageColor() {
+    let bg = document.getElementById("bgcolor").value;
+
+    document.body.style.backgroundColor = bg;
+}
