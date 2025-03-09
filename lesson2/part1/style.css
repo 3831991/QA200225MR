@@ -2,7 +2,7 @@
 
 body {
     direction: rtl;
-    background-color: #673AB7;
+    background-color: #3ab770;
     font-family: 'Rubik', sans-serif;
     font-weight: normal;
     margin-bottom: 200px;
@@ -36,7 +36,7 @@ h2 {
 }
 
 button {
-    background-color: #673ab7;
+    background-color: #3ab770;
     color: white;
     padding: 8px 12px;
     border-radius: 6px;
@@ -44,7 +44,7 @@ button {
 }
 
 button:hover {
-    background-color: #8056c9;
+    filter: brightness(110%);
 }
 
 input, select {
