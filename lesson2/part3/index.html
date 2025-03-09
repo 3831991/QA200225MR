@@ -27,16 +27,16 @@
             <div>
                 <p>יש לקלוט 2 מספרים ולאפשר לבחור סוג פעולה (יש להשתמש ב-Select)</p>
 
-                <input type="number" id="num3">
-                <select id="op">
+                <input type="number" id="num3" oninput="task2()">
+
+                <select id="op" oninput="task2()">
                     <option>+</option>
                     <option>-</option>
-                    <option>*</option>
-                    <option>/</option>
+                    <option>x</option>
+                    <option>:</option>
                 </select>
-                <input type="number" id="num4">
-    
-                <button onclick="task2()">אישור</button>
+
+                <input type="number" id="num4" oninput="task2()">
     
                 <p id="output2"></p>
             </div>

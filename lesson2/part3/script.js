@@ -30,6 +30,15 @@ function task2() {
     let n1 = +document.getElementById("num3").value;
     let n2 = +document.getElementById("num4").value;
     let op = document.getElementById("op").value;
+    let output = document.getElementById("output2");
 
-    
+    if (op == "+") {
+        output.innerHTML = n1 + n2;
+    } else if (op == "-") {
+        output.innerHTML = n1 - n2;
+    } else if (op == "x") {
+        output.innerHTML = n1 * n2;
+    } else if (op == ":") {
+        output.innerHTML = n1 / n2;
+    }
 }
