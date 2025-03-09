@@ -36,3 +36,26 @@ function login() {
         document.getElementById("output2").innerHTML = "שם משתמש או סיסמה שגויים";
     }
 }
+
+function check() {
+    let n1 = +document.getElementById("num1").value;
+    let n2 = +document.getElementById("num2").value;
+
+    if (n1 == n2) {
+        document.getElementById("output3").innerHTML = "המספרים שווים";
+    } else {
+        document.getElementById("output3").innerHTML = "המספרים לא שווים";
+    }
+}
+
+function lastTask() {
+    let n = +document.getElementById("num3").value;
+    let out = document.getElementById("output4");
+    
+    if (n >= 40 && n <= 100) {
+        out.innerHTML = "נכשל";
+        out.style.color = "red";
+    } else if () {
+        
+    }
+}
