@@ -24,3 +24,20 @@ function check() {
         document.getElementById("output2").innerHTML = "לא התקבל";
     }
 }
+
+function floor() {
+    let num = +document.getElementById('num').value;
+    document.getElementById('num').value = Math.floor(num);
+}
+
+function evenOrOdd() {
+    let num = +document.getElementById('num').value;
+
+    if (num % 2 == 0) {
+        document.getElementById("output3").innerHTML = "זוגי";
+    } else if (num % 2 == 1) {
+        document.getElementById("output3").innerHTML = "אי זוגי";
+    } else {
+        document.getElementById("output3").innerHTML = "צריך רק מספר שלם";
+    }
+}
