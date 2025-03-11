@@ -13,12 +13,17 @@ function task2() {
 }
 
 function task3() {
-    
+    const rand = Math.random();
+    const num = Math.floor(rand * 50) + 1;
+
+    document.getElementById("output3").innerHTML = num;
 }
 
 function task4() {
     const num = +document.getElementById('num').value;
+    const rand = Math.floor(Math.random() * num) + 1;
 
+    document.getElementById("output4").innerHTML = rand;
 }
 
 function dice() {
