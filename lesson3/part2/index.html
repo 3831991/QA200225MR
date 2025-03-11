@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Hello JS</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
-    </head>
-    <body>
-        <h1 id="title">Random</h1>
 
-        <div class="frame">
-            <div>
-                <p>יש להגריל מספר בין 1 ל 15</p>
-                <button onclick="task1()">הגרל</button>
-                <p id="output1"></p>
-            </div>
+<head>
+    <meta charset="utf-8">
+    <title>Hello JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1 id="title">Random</h1>
+
+    <div class="frame">
+        <div>
+            <p>יש להגריל מספר בין 1 ל 15</p>
+            <button onclick="task1()">הגרל</button>
+            <p id="output1"></p>
         </div>
-    </body>
+
+        <div>
+            <p>יש להגריל מספר בין 10 ל 20 ולהציג את כל המספרים שהוגרלו</p>
+            <button onclick="task2()">הגרל</button>
+            <p id="output2"></p>
+        </div>
+
+        <div>
+            <p>הטלת קוביה</p>
+            <div class="face" id="dice" onclick="dice()"></div>
+        </div>
+    </div>
+</body>
+
 </html>
