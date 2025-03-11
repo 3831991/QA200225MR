@@ -12,6 +12,15 @@ function task2() {
     document.getElementById("output2").innerHTML += num + ', ';
 }
 
+function task3() {
+    
+}
+
+function task4() {
+    const num = +document.getElementById('num').value;
+
+}
+
 function dice() {
     const rand = Math.random();
     const num = Math.floor(rand * 6) + 1;
