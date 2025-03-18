@@ -63,13 +63,40 @@ function task5() {
 }
 
 function task6() {
+    let i = 0;
+    let min = numbers[0];
 
+    while (i < numbers.length) {
+        if (numbers[i] < min) {
+            min = numbers[i];
+        }
+
+        i++;
+    }
+
+    document.getElementById("output6").innerHTML = min;
 }
 
 function task7() {
+    let sum = 0;
 
+    for (let i = 0; i < numbers.length; i++) {
+        sum += numbers[i];
+    }
+
+    document.getElementById("output7").innerHTML = sum;
 }
 
 function task8() {
+    let sum = 0;
 
+    for (let i = 0; i < numbers.length; i++) {
+        sum += numbers[i];
+    }
+
+    document.getElementById("output8").innerHTML = sum / numbers.length;
+}
+
+function task9() {
+    
 }
