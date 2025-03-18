@@ -6,3 +6,31 @@ function showArrays() {
     document.getElementById('names').innerHTML = names.join(", ");
     document.getElementById('numbers').innerHTML = numbers.join(", ");
 }
+
+function task1() {
+    let i = 0;
+    const asterisk = [];
+
+    while (i < 10) {
+        asterisk.push("*");
+        i++;
+    }
+
+    document.getElementById("output1").innerHTML = asterisk.join('  ');
+}
+
+function task2() {
+    let i = 0;
+    const asterisk = [];
+
+    while (i < 10) {
+        asterisk.push("*");
+        i++;
+    }
+
+    document.getElementById("output2").innerHTML = asterisk.join('<br>');
+}
+
+function task3() {
+    
+}
