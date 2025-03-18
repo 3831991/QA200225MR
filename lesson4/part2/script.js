@@ -42,3 +42,23 @@ function task3() {
 
     document.getElementById("output3").innerHTML = numbers.join('<br>');
 }
+
+function task4() {
+    
+}
+
+function task5() {
+
+}
+
+function task6() {
+
+}
+
+function task7() {
+
+}
+
+function task8() {
+
+}
