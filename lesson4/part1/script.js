@@ -38,3 +38,7 @@ function addLast() {
     document.getElementById("name2").value = "";
 }
 
+function search() {
+    const name = document.getElementById("name3").value;
+
+}
