@@ -44,11 +44,22 @@ function task3() {
 }
 
 function task4() {
-    
+    document.getElementById("output4").innerHTML = names.slice(12, 33).join(', ');
 }
 
 function task5() {
+    let i = 0;
+    let max = numbers[0];
 
+    while (i < numbers.length) {
+        if (numbers[i] > max) {
+            max = numbers[i];
+        }
+
+        i++;
+    }
+
+    document.getElementById("output5").innerHTML = max;
 }
 
 function task6() {
