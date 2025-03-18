@@ -25,9 +25,16 @@ function removeFirst() {
 }
 
 function addFirst() {
-
+    const name = document.getElementById("name1").value;
+    names.unshift(name);
+    showNames();
+    document.getElementById("name1").value = "";
 }
 
 function addLast() {
-
+    const name = document.getElementById("name2").value;
+    names.push(name);
+    showNames();
+    document.getElementById("name2").value = "";
 }
+
