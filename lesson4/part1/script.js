@@ -40,5 +40,13 @@ function addLast() {
 
 function search() {
     const name = document.getElementById("name3").value;
+    const output = document.getElementById("output");
 
+    const i = names.indexOf(name);
+
+    if (i == -1) {
+        output.innerHTML = "לא נמצא";
+    } else {
+        output.innerHTML = "נמצא במיקום: " + i;
+    }
 }
