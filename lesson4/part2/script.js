@@ -32,5 +32,13 @@ function task2() {
 }
 
 function task3() {
-    
+    let i = 1;
+    const numbers = [];
+
+    while (i <= 15) {
+        numbers.push(i);
+        i++;
+    }
+
+    document.getElementById("output3").innerHTML = numbers.join('<br>');
 }
