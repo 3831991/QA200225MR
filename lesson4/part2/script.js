@@ -98,5 +98,27 @@ function task8() {
 }
 
 function task9() {
+    const numbers = [];
+
+    for (let i = 1; i <= 15; i++) {
+        numbers.push(`<span style="font-size: ${i * 4 + 16}px;">${i}</span>`);
+    }
+
+    document.getElementById("output9").innerHTML = numbers.join(" | ");
+}
+
+function task10() {
+    const numbers = [];
+
+    for (let i = 1; i <= 30; i++) {
+        if (i % 2 == 0) {
+            numbers.push(i);
+        }
+    }
+
+    document.getElementById("output10").innerHTML = numbers.join(", ");
+}
+
+function task11() {
     
 }
