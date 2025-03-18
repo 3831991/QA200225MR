@@ -3,3 +3,21 @@ const names = ["אור", "אבינדב", "עטרה", "אליאב", "כלנית",
 function showNames() {
     document.getElementById('names').innerHTML = names.join(", ");
 }
+
+function asc() {
+    names.sort();
+    showNames();
+}
+
+function desc() {
+    names.sort().reverse();;
+    showNames();
+}
+
+function removeFirst() {
+
+}
+
+function removeLast() {
+
+}
