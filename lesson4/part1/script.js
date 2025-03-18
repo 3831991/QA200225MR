@@ -10,14 +10,24 @@ function asc() {
 }
 
 function desc() {
-    names.sort().reverse();;
+    names.sort().reverse();
+    showNames();
+}
+
+function removeLast() {
+    names.pop();
     showNames();
 }
 
 function removeFirst() {
+    names.shift();
+    showNames();
+}
+
+function addFirst() {
 
 }
 
-function removeLast() {
+function addLast() {
 
 }
