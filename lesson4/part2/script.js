@@ -120,5 +120,13 @@ function task10() {
 }
 
 function task11() {
-    
+    const numbers2 = [];
+
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 == 0) {
+            numbers2.push(numbers[i]);
+        }
+    }
+
+    document.getElementById("output11").innerHTML = numbers2.join(", ");
 }
