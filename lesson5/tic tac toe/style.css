@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;900&display=swap');
+
+:root {
+    --myColor: #00cb65;
+}
+
+body {
+    direction: rtl;
+    background-color: var(--myColor);
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    margin-bottom: 200px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.frame {
+    background-color: var(--myColor);
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    direction: ltr;
+}
+
+.frame div {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 80px;
+    line-height: 0;
+}
+
+.frame div:hover {
+    scale: 0.9;
+}
