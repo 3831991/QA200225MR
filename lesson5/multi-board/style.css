@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;900&display=swap');
 
 :root {
-    --myColor: #0011cb;
+    --myColor: #00cb65;
 }
 
 body {
@@ -27,6 +27,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     gap: 2px;
+    direction: ltr;
 }
 
 .frame div {
