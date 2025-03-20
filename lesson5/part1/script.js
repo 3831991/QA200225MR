@@ -6,3 +6,23 @@ function showArrays() {
     document.getElementById('names').innerHTML = names.join(", ");
     document.getElementById('numbers').innerHTML = numbers.join(", ");
 }
+
+function task1() {
+    const arr = [];
+
+    for (let i = 0; i < 10; i++) {
+        arr.push("*");
+    }
+
+    document.getElementById("output1").innerHTML = arr.join('  ');
+}
+
+function task2() {
+    const arr = [];
+
+    for (let i = 0; i < 10; i++) {
+        arr.push("*");
+    }
+
+    document.getElementById("output2").innerHTML = arr.join('<br>');
+}
