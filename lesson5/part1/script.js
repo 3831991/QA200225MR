@@ -14,7 +14,7 @@ function task1() {
         arr.push("*");
     }
 
-    document.getElementById("output1").innerHTML = arr.join('  ');
+    document.getElementById("output1").innerHTML = arr.join(' ');
 }
 
 function task2() {
@@ -25,4 +25,102 @@ function task2() {
     }
 
     document.getElementById("output2").innerHTML = arr.join('<br>');
+}
+
+function task3() {
+    const arr = [];
+
+    for (let i = 1; i <= 15; i++) {
+        arr.push(i);
+    }
+
+    document.getElementById("output3").innerHTML = arr.join(' | ');
+}
+
+function task4() {
+    const arr = [];
+
+    for (let i = 12; i <= 32; i++) {
+        arr.push(`<small><b>${i}</b>.</small> ${names[i]}.`);
+    }
+
+    document.getElementById("output4").innerHTML = arr.join('<br>');
+}
+
+function task5() {
+    document.getElementById("output5").innerHTML = Math.max(...numbers);
+}
+
+function task6() {
+    document.getElementById("output6").innerHTML = Math.min(...numbers);
+}
+
+function task7() {
+    let sum = 0;
+
+    for (const x of numbers) {
+        sum += x;
+    }
+
+    document.getElementById("output7").innerHTML = sum;
+}
+
+function task8() {
+    let sum = 0;
+
+    for (const x of numbers) {
+        sum += x;
+    }
+
+    document.getElementById("output8").innerHTML = sum / numbers.length;
+}
+
+function task9() {
+    const arr = [];
+
+    for (let i = 1; i <= 15; i++) {
+        arr.push(`<span style="font-size: ${16 + i * 4}px;">${i}</span>`);
+    }
+
+    document.getElementById("output9").innerHTML = arr.join(" | ");
+}
+
+function task10() {
+    const arr = [];
+
+    for (let i = 1; i <= 30; i++) {
+        if (i % 2 == 0) {
+            arr.push(i);
+        }
+    }
+
+    document.getElementById("output10").innerHTML = arr.join(" | ");
+}
+
+function task11() {
+    const arr = [];
+
+    for (const num of numbers) {
+        if (num % 2 == 0) {
+            arr.push(num);
+        }
+    }
+
+    document.getElementById("output11").innerHTML = arr.join(" | ");
+}
+
+function task12() {
+    const arr = [];
+
+    for (let row = 1; row <= 10; row++) {
+        let asterisk = '';
+
+        for (let i = 0; i < row; i++) {
+            asterisk += '*';
+        }
+        
+        arr.push(asterisk);
+    }
+
+    document.getElementById("output12").innerHTML = arr.join('<br>');
 }
