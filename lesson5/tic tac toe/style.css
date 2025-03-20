@@ -9,7 +9,7 @@ body {
     background-color: var(--myColor);
     font-family: 'Rubik', sans-serif;
     font-weight: normal;
-    margin-bottom: 200px;
+    text-align: center;
 }
 
 h1 {
@@ -42,4 +42,20 @@ h1 {
 
 .frame div:hover {
     scale: 0.9;
+}
+
+button {
+    margin: 16px;
+    font-size: 24px;
+    padding: 16px 24px;
+    border-radius: 40px;
+    border: 0;
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    scale: 1.2;
 }

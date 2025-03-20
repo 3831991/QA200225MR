@@ -18,10 +18,14 @@ function clickDiv(elem) {
         return;
     }
 
+    const turn = document.getElementById("turn");
+
     if (isPlayerX) {
         elem.innerHTML = 'X';
+        turn.innerHTML = "התור של O";
     } else {
         elem.innerHTML = 'O';
+        turn.innerHTML = "התור של X";
     }
 
     check();
@@ -47,5 +51,21 @@ function check() {
             isGameOver = true;
             alert("O is winner");
         }
+    }
+}
+
+function newGame() {
+    if (!isGameOver && !confirm("האם להתחיל משחק חדש?")) {
+        return;
+    }
+
+    isPlayerX = true;
+    isGameOver = false;
+    const divs = document.querySelectorAll("#board div");
+    document.getElementById("turn").innerHTML = "התור של X";
+
+    for (const div of divs) {
+        div.innerHTML = '';
+        div.style.backgroundColor = '';
     }
 }
